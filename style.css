@@ -1,0 +1,83 @@
+body{
+    background-image: url(picture/bgp.jpg);
+    font-family:cursive;
+}
+
+#keret{
+    margin: 4px;
+}
+
+header{
+    margin: 0.6%;
+}
+
+header button{
+    border-color:unset;
+    border-radius: 90px;
+    padding: 2px;
+}
+
+header button img{
+    border-radius: 40px;
+}
+
+header h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+
+#hetkoznap{
+    justify-content: space-between;
+}
+
+#h, #k, #sze, #cs, #p{
+    flex-direction: row;
+    width: 100%;
+}
+
+.sor{
+    justify-content: space-between;
+}
+
+.elem{
+    flex-direction: row;
+    width: 100%;
+}
+
+.terv1{
+    flex-direction: row;
+    width: 100%;
+}
+
+.terv2{
+    flex-direction: row;
+    width: 100%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 449px){
+    body{
+        margin: 0;
+    }
+
+    #hetkoznap{
+        justify-content:start ;
+    }
+
+    #h, #k, #sze, #cs, #p{
+        flex-direction:column;
+    }
+
+    .sor, .elem, .terv1, .terv2{
+        flex-direction: column;
+    }
+}
+
+.dark-mode{
+    background-image: url(picture/bgpd.jpg);
+    color: black;
+    opacity:0.3;
+}
+
