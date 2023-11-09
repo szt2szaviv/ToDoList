@@ -1,5 +1,6 @@
 body{
-    background-image: url(picture/bgp.jpg);
+    background:-webkit-linear-gradient(135deg, #C02425, #F0CB35);
+    color: black;
     font-family:cursive;
 }
 
@@ -9,6 +10,7 @@ body{
 
 header{
     margin: 0.6%;
+    margin-bottom: 3.5%;
 }
 
 header button{
@@ -47,6 +49,10 @@ section{
     width: 100%;
 }
 
+#tervek{
+    margin-top: 4.6%;
+}
+
 .terv1{
     flex-direction: row;
     width: 100%;
@@ -76,8 +82,12 @@ section{
 }
 
 .dark-mode{
-    background-image: url(picture/bgpd.jpg);
-    color: black;
-    opacity:0.3;
+    background:-webkit-linear-gradient(135deg, #781213, #A0822D);
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: black !important;
+    color: white !important;
 }
 
